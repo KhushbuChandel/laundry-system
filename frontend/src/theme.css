@@ -1,0 +1,63 @@
+/* frontend/src/theme.css */
+body {
+  background-color: #121212;
+  color: #fff;
+  font-family: Arial, sans-serif;
+}
+
+.card {
+  background-color: #1e1e1e !important;
+  border: 1px solid #333;
+  color: #fff;
+}
+
+.navbar {
+  background-color: #1f1f1f !important;
+  border-bottom: 1px solid #333;
+}
+
+.nav-link {
+  color: #ccc !important;
+  margin-right: 15px;
+}
+
+.nav-link:hover {
+  color: #fff !important;
+}
+
+.form-control,
+.form-select {
+  background-color: #222 !important;
+  color: #fff !important;
+  border: 1px solid #444 !important;
+}
+
+.btn {
+  padding: 8px 18px !important;
+  font-weight: bold;
+  border-radius: 6px !important;
+}
+
+.btn-primary {
+  background-color: #2962ff !important;
+}
+
+.btn-success {
+  background-color: #00c853 !important;
+}
+
+.alert-success {
+  background-color: #1b5e20 !important;
+  color: #fff !important;
+  border: none;
+  animation: fadeIn 0.4s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-5px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+h3, h5 {
+  color: #fff;
+}
